@@ -1,5 +1,5 @@
 # LEGO Block Creator
-Offline, Python-written, command line based, inventory tracking of your LEGO parts and sets. Parts can be sorted by name, colour and quantity; and sets by name, box ID and theme category.
+Offline inventory tracking of your LEGO parts and sets through a neat command line interface. Parts can be sorted by name, colour and quantity, while sets sorted by name, box ID and theme.
 
  **More information coming soon! - STILL UNDER DEVELOPMENT!**
 
