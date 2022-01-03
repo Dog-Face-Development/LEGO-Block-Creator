@@ -1,4 +1,4 @@
-# Copyright (C) 2018 - 2019 William Vandergraaf
+# Copyright (C) 2018 - 2022 William Vandergraaf
 # All rights reserved. To learn more type 'copyright' at the prompt.
 
 # Import Statements
@@ -117,8 +117,8 @@ elif INPUTmain == 'help': #the 'help' command
     print('"newpiece" - creates a new piece in the database. \n"newcolour/newcolor" - creates a new colour in the database. \n"addpiece" - adds a quantity of your selected piece to the database. \n"removepiece" - removes a quantity of your selected piece from the database. \n"sortparts-all" - prints all pieces and their respective colours and quantities to the screen. \n"sortparts-name" - prints all pieces related to the search query entered, as well as their respective colours and quantities to the screen. \n"sortparts-colour/sortparts-color" - prints all pieces in that colour, as well as their respective names and quantities. \n"newset" - creates a new set in the database. \n"newtheme" - creates a new theme in the database. \n"addset" - adds a quantity of your selected set to the database. \n"removeset" - removes a quantity of your selected set from the database. \n"sortsets-all" - prints all sets and their respective set numbers, themes, piece count and quantity to the screen. \n"sortsets-name" - prints all the sets related to the set name entered, as well as their respective set numbers, themes, piece count and quantity to the screen. \n"sortsets-number" - prints all the sets related to the set number entered, as well as their respective set names, themes, piece count and quantity to the screen. \n"sortsets-theme" - prints all the sets related to the set theme entered, as well as their respective set names, numbers, piece count and quantity to the screen. \n"copyright/license" - prints license and copyright information and opens the license in default text editor. \n"help" - prints a list of commands, and is where you are right now.') #list of functions
 
 elif INPUTmain == 'copyright' or 'license': #the 'copyright command'
-    print('Copyright (C) 2018 Dog Face Development Co. \nUse is subject to the terms and conditions outlined in the LICENSE.md document.') #copyright info
-    os.startfile("C:\\Users\\William Vandergraaf\\Documents\\Dog Face Development Co\\Legal\\Project Licences\\GNU General Public License.txt") #opens license
+    print('Copyright (C) 2018-2022 Dog Face Development Co. \nUse is subject to the terms and conditions outlined in the LICENSE.md document.') #copyright info
+    os.startfile("") #opens license
 
 else:
     print('Sorry, try again! \nType "help" for a list of commands.') #helpful error message
