@@ -3,6 +3,6 @@ Offline inventory tracking of your LEGO parts and sets through a neat command li
 
 **More information coming soon! - STILL UNDER DEVELOPMENT!**
 
-Copyright © 2019 [@willtheorangeguy](https://github.com/willtheorangeguy)
+Copyright © 2019-2022 [@willtheorangeguy](https://github.com/willtheorangeguy)
 
 Not afilliated with The LEGO Group (TLG) in any way, shape or form
