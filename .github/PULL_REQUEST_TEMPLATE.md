@@ -23,3 +23,5 @@ If applicable, add screenshots to help explain your problem.
 **Additional Context**
 
 Add any other context about the problem here.
+
+**Please ensure you have read the [Contributor License Agreements](https://github.com/Dog-Face-Development/Auto-Anouncements/tree/master/docs/legal). By creating your pull request, you agree to the CLA.**
