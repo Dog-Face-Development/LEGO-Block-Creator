@@ -1,8 +1,8 @@
-# Terms and Conditions
+# Dog Face Development Co. Terms and Conditions
 
-Last updated: March 01, 2022.
+Last updated: September 4, 2022.
 
-Please read these terms and conditions carefully before using LEGO Block Creator.
+Please read these terms and conditions carefully before using LEGO Block Creator. **This document comes into effect when you contribute to the repository and/or download the software containing this document.**
 
 ## Interpretation and Definitions
 
@@ -14,11 +14,11 @@ The words of which the initial letter is capitalized have meanings defined under
 
 For the purposes of these Terms and Conditions:
 
-- **Application** means the software program provided by @willtheorangeguy downloaded by you on any electronic device, named LEGO Block Creator.
-- **Application Store** means the digital distribution service operated and developed by Apple Inc. (Apple App Store), Google Inc. (Google Play Store) or Microsoft Inc (GitHub), in which the Application has been downloaded.
+- **Application** means the software program provided by Dog Face Development Company downloaded by you on any electronic device, named LEGO Block Creator.
+- **Application Store** means the digital distribution service operated and developed by Apple Inc. (Apple App Store), Google Inc. (Google Play Store) or Microsoft Inc. (GitHub), in which the Application has been downloaded.
 - **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
-- **Country** refers to: British Columbia,  Canada
-- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to the developer named as @willtheorangeguy.
+- **Country** refers to: British Columbia, Canada.
+- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to the developer named as Dog Face Development Company.
 - **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
 - **Service** refers to the Application.
 - **Terms and Conditions** (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.
@@ -70,7 +70,7 @@ The laws of the Country, excluding its conflicts of law rules, shall govern this
 
 ## Disputes Resolution
 
-If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company. Contact information is available on the [GitHub](https://github.com/willtheorangeguy/LEGO-Block-Creator) page.
+If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company. Contact information is available on the [GitHub](https://github.com/Dog-Face-Development/LEGO-Block-Creator) page.
 
 ## For European Union (EU) Users
 
@@ -96,4 +96,4 @@ By continuing to access or use Our Service after those revisions become effectiv
 
 If you have any questions about these Terms and Conditions, You can contact us:
 
-- By visiting this page on our website: [github.com/willtheorangeguy/LEGO-Block-Creator](github.com/willtheorangeguy/LEGO-Block-Creator).
+- By visiting our GitHub page: [https://github.com/Dog-Face-Development/LEGO-Block-Creator](https://github.com/Dog-Face-Development/LEGO-Block-Creator).
