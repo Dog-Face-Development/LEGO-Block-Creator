@@ -6,6 +6,9 @@ This folder includes all of the docs for LEGO Block Creator. More can be found o
 ├── docs
 |   ├── images
 |   ├── legal
+|   |   ├── CLA_ENTITY.md
+|   |   ├── CLA_INDIVIDUAL.md
+|   |   ├── EULA.md
 |   |   ├── PRIVACY.md
 |   |   ├── TERMS.md
 |   ├── USAGE.md
