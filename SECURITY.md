@@ -6,7 +6,7 @@ If you believe you have found a security vulnerability in any repository, please
 
 ## Supported Versions
 
-The following versions of Auto Announcements are currently supported:
+The following versions of LEGO Block Creator are currently supported:
 
 | Version | Supported          |
 | ------- | ------------------ |

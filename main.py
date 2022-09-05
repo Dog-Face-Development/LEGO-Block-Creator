@@ -79,7 +79,7 @@ elif INPUTmain == 'newset': # the 'newset' command
     global INPUTnewset # create global var
     global INPUTnewsetnum # create global var
     global INPUTnewsettheme # create global var
-    global INPUTnewsetpiececount # create gloabl var
+    global INPUTnewsetpiececount # create global var
     global INPUTnewsetcount # create global var
     INPUTnewset = str(input('Name the set you would like to add: ')) # ask set name
     INPUTnewsetnum = str(input('What is the set number for the set you would like to add? ')) # ask set number
