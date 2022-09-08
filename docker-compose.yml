@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  legoblockcreator:
+    build: .
+    image: legoblockcreator
+    volumes:
+      - ./data:/home/app_user/data
+    stdin_open: true
+    tty: true
+    command: bash -c "python main.py"
