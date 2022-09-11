@@ -12,9 +12,9 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="GitHub Test State" src="https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/test.yml/badge.svg">
+  <img alt="Docker Build State" src="https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/docker-publish.yml/badge.svg">
   <!-- Stability -->
-  <img alt="GitHub Build State" src="https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/build.yml/badge.svg">
+  <img alt="PyPI Build State" src="https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/push-to-pypi.yml/badge.svg">
   <!-- Stability -->
   <img alt="Pylint State" src="https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/pylint.yml/badge.svg">
   <!-- CodeQL -->
@@ -65,19 +65,46 @@ You can **[download](https://github.com/Dog-Face-Development/LEGO-Block-Creator/
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the scripts from GitHub above. From your command line:
+To run the application, you can use [Git and the Python Interpreter](https://github.com/Dog-Face-Development/LEGO-Block-Creator/main/README.md#git), which allows you to clone and run the application, [`pip`](https://github.com/Dog-Face-Development/LEGO-Block-Creator/main/README.md#pip) to create a command line application, or [Docker](https://github.com/Dog-Face-DevelopmentLEGO-Block-Creator/main/README.md#docker) to create a container of the application.
+
+### Git
+
+To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the script from GitHub above. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Dog-Face-Development/LEGO-Block-Creator.git
+$ git clone https://github.com/Dog-Face-Development/LEGO-Block-Creator
 
 # Go into the repository
 $ cd LEGO-Block-Creator
 
-# Run the App
+# Run the CLI
 $ python main.py
 ```
 
+### `pip`
+
+You can install the program from the [Python Package Index](https://pypi.org/project/LEGO-Block-Creator/) through `pip`.
+
+```bash
+# Install via pip
+$ pip install lego-block-creator
+
+# Run the CLI
+$ lego-block-creator
+```
+
+### Docker
+
+You can pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
+
+```bash
+# Pull image
+$ docker pull ghcr.io/dog-face-development/lego-block-creator:master
+
+# Run container
+$ docker run -i -t ghcr.io/dog-face-development/lego-block-creator:master python send.py
+```
 ## Support
 
 To create your part and set library and manipulate it, just launch the app using the instructions above!

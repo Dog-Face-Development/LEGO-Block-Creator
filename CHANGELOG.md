@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.3.0](https://github.com/willtheorangeguy/LEGO-Block-Creator/releases/tag/v0.3.0)
+
+### Added
+
+- Docker container.
+- PyPI package.
+
 ## [v0.2.0](https://github.com/willtheorangeguy/LEGO-Block-Creator/releases/tag/v0.2.0)
 
 ### Added
