@@ -1,4 +1,4 @@
-name: push-to-pypi
+name: PyPI Build
 
 on:
   release:
