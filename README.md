@@ -65,7 +65,7 @@ You can **[download](https://github.com/Dog-Face-Development/LEGO-Block-Creator/
 
 ## How To Use
 
-To run the application, you can use [Git and the Python Interpreter](https://github.com/Dog-Face-Development/LEGO-Block-Creator/main/README.md#git), which allows you to clone and run the application, [`pip`](https://github.com/Dog-Face-Development/LEGO-Block-Creator/main/README.md#pip) to create a command line application, or [Docker](https://github.com/Dog-Face-DevelopmentLEGO-Block-Creator/main/README.md#docker) to create a container of the application.
+To run the application, you can use [Git and the Python Interpreter](https://github.com/Dog-Face-Development/LEGO-Block-Creator/main/README.md#git), which allows you to clone and run the application, [`pip`](https://github.com/Dog-Face-Development/LEGO-Block-Creator/main/README.md#pip) to create a command line application, or [Docker](https://github.com/Dog-Face-Development/LEGO-Block-Creator/main/README.md#docker) to create a container of the application.
 
 ### Git
 
@@ -105,6 +105,7 @@ $ docker pull ghcr.io/dog-face-development/lego-block-creator:master
 # Run container
 $ docker run -i -t ghcr.io/dog-face-development/lego-block-creator:master python send.py
 ```
+
 ## Support
 
 To create your part and set library and manipulate it, just launch the app using the instructions above!
