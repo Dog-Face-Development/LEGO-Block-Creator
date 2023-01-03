@@ -29,13 +29,16 @@ def lego_cmd():
         global INPUTnewpiececount  # create global var
         global INPUTnewpiececolour  # create global var
         INPUTnewpiece = str(
-            input("Name the piece you would like to add: "))  # ask for name
+            input("Name the piece you would like to add: ")
+        )  # ask for name
         INPUTnewpiececolour = str(
             input(
                 'What is the piece colour (make sure this colour is in the colour database, otherwise add using "newcolour")? '
-            ))  # ask for colour
+            )
+        )  # ask for colour
         INPUTnewpiececount = int(
-            input("How many of that would you like to add? "))  # ask for qty
+            input("How many of that would you like to add? ")
+        )  # ask for qty
         print(
             "A new piece has been created named:",
             '"' + INPUTnewpiece + '",',
@@ -47,26 +50,30 @@ def lego_cmd():
 
     elif INPUTmain == "newcolour":  # the 'newcolour' command
         global INPUTnewcolour  # create global var
-        INPUTnewcolour = str(input(
-            "Name the colour you would like to add: "))  # ask for colour name
-        print("A new colour had been created named:", '"' + INPUTnewcolour +
-              '".')  # check with user to make sure input ok
+        INPUTnewcolour = str(
+            input("Name the colour you would like to add: ")
+        )  # ask for colour name
+        print(
+            "A new colour had been created named:", '"' + INPUTnewcolour + '".'
+        )  # check with user to make sure input ok
     elif INPUTmain == "newcolor":  # the 'newcolor' command
-        INPUTnewcolour = str(input(
-            "Name the color you would like to add: "))  # ask for colour name
-        print("A new color had been created named:", '"' + INPUTnewcolour +
-              '".')  # check with user to make sure input ok
+        INPUTnewcolour = str(
+            input("Name the color you would like to add: ")
+        )  # ask for colour name
+        print(
+            "A new color had been created named:", '"' + INPUTnewcolour + '".'
+        )  # check with user to make sure input ok
 
     elif INPUTmain == "addpiece":  # the 'addpiece' command
         global INPUTpiecename  # create global var
         global INPUTpiececolour  # create global var
         global INPUTpiececount  # create global var
         INPUTpiecename = str(
-            input(
-                "What is the name of the piece that you would like to add to? "
-            ))  # ask for piece name
+            input("What is the name of the piece that you would like to add to? ")
+        )  # ask for piece name
         INPUTpiececolour = str(
-            input("What is the piece colour? "))  # ask for piece colour
+            input("What is the piece colour? ")
+        )  # ask for piece colour
         INPUTpiececount = int(
             input("How many of that piece do you want to add? ")
         )  # ask for piece qty
@@ -80,11 +87,11 @@ def lego_cmd():
 
     elif INPUTmain == "removepiece":  # the 'removepiece' command
         INPUTpiecename = str(
-            input(
-                "What is the name of the piece that you would like to remove? "
-            ))  # ask for piece name
+            input("What is the name of the piece that you would like to remove? ")
+        )  # ask for piece name
         INPUTpiececolour = str(
-            input("What is the piece colour? "))  # ask for piece colour
+            input("What is the piece colour? ")
+        )  # ask for piece colour
         INPUTpiececount = int(
             input("How many of that piece do you want to remove? ")
         )  # ask for piece qty
@@ -102,13 +109,15 @@ def lego_cmd():
             "piececolour": "piecescolour",
             "piececount": "numofpieces",
         }  # create dictionary of pieces requested
-        print("Here are all the pieces in the database:",
-              PIECESall)  # return specified results
+        print(
+            "Here are all the pieces in the database:", PIECESall
+        )  # return specified results
 
     elif INPUTmain == "sortparts-name":  # the 'sortparts-name' command
         global INPUTsearch  # create global var
         INPUTsearch = str(
-            input("Please enter a brick name: "))  # search bar to sort by name
+            input("Please enter a brick name: ")
+        )  # search bar to sort by name
         PIECESbyname = {
             "piecename": "piecenamescontainingINPUTsearch",
             "piececolour": "piecescolour",
@@ -121,8 +130,9 @@ def lego_cmd():
         )  # return specified results
 
     elif INPUTmain == "sortparts-colour":  # the 'sortparts-colour' command
-        INPUTsearch = str(input(
-            "Please enter a brick colour: "))  # search bar to sort by colour
+        INPUTsearch = str(
+            input("Please enter a brick colour: ")
+        )  # search bar to sort by colour
         PIECESbycolour = {
             "piecename": "piecenames",
             "piececolour": "piecescolourcontainingINPUTsearch",
@@ -134,8 +144,9 @@ def lego_cmd():
             PIECESbycolour,
         )  # return specified results
     elif INPUTmain == "sortparts-color":  # the 'sortparts-color' command
-        INPUTsearch = str(input(
-            "Please enter a brick color: "))  # search bar to sort by colour
+        INPUTsearch = str(
+            input("Please enter a brick color: ")
+        )  # search bar to sort by colour
         PIECESbycolour = {
             "piecename": "piecenames",
             "piececolour": "piecescolourcontainingINPUTsearch",
@@ -154,15 +165,15 @@ def lego_cmd():
         global INPUTnewsettheme  # create global var
         global INPUTnewsetpiececount  # create global var
         global INPUTnewsetcount  # create global var
-        INPUTnewset = str(
-            input("Name the set you would like to add: "))  # ask set name
+        INPUTnewset = str(input("Name the set you would like to add: "))  # ask set name
         INPUTnewsetnum = str(
             input("What is the set number for the set you would like to add? ")
         )  # ask set number
         INPUTnewsettheme = str(
             input(
                 'What is the theme for the set you would like to add? (make sure this theme is in the database, otherwise add using "newtheme") '
-            ))  # ask set theme
+            )
+        )  # ask set theme
         INPUTnewsetpiececount = str(
             input("How many pieces are there in this set? ")
         )  # ask set piece count
@@ -184,20 +195,22 @@ def lego_cmd():
 
     elif INPUTmain == "newtheme":  # the 'newtheme' command
         global INPUTnewtheme  # create global var
-        INPUTnewtheme = str(input(
-            "Name the theme you would like to add: "))  # ask for theme name
-        print("A new theme had been created named:", '"' + INPUTnewtheme +
-              '"')  # check with user to make sure input ok
+        INPUTnewtheme = str(
+            input("Name the theme you would like to add: ")
+        )  # ask for theme name
+        print(
+            "A new theme had been created named:", '"' + INPUTnewtheme + '"'
+        )  # check with user to make sure input ok
 
     elif INPUTmain == "addset":  # the 'addset' command
         global INPUTsetnum  # create global var
         global INPUTsetcount  # create global var
         INPUTsetnum = str(
-            input(
-                "What is the set number of the set that you would like to add? "
-            ))  # ask for set number
-        INPUTsetcount = int(input(
-            "How many of that set do you want to add? "))  # ask for set qty
+            input("What is the set number of the set that you would like to add? ")
+        )  # ask for set number
+        INPUTsetcount = int(
+            input("How many of that set do you want to add? ")
+        )  # ask for set qty
         print(
             INPUTsetcount,
             "sets have been added to set number:",
@@ -206,9 +219,8 @@ def lego_cmd():
 
     elif INPUTmain == "removeset":  # the 'removeset' command
         INPUTsetnum = str(
-            input(
-                "What is the set number of the set that you would like to remove? "
-            ))  # ask for set number
+            input("What is the set number of the set that you would like to remove? ")
+        )  # ask for set number
         INPUTsetcount = int(
             input("How many of that set do you want to remove? ")
         )  # ask for set qty
@@ -226,12 +238,14 @@ def lego_cmd():
             "setpiececount": "numofpieces",
             "setcount": "numofsets",
         }  # create dictionary of sets requested
-        print("Here are all the sets in the database:",
-              SETSall)  # return specified results
+        print(
+            "Here are all the sets in the database:", SETSall
+        )  # return specified results
 
     elif INPUTmain == "sortsets-name":  # the 'sortsets-name' command
-        INPUTsearch = str(input("Please enter a set name (NOT number): ")
-                          )  # search bar to sort by name
+        INPUTsearch = str(
+            input("Please enter a set name (NOT number): ")
+        )  # search bar to sort by name
         SETSbyname = {
             "setname": "setnamescontainingINPUTsearch",
             "setnum": "setnums",
@@ -246,8 +260,9 @@ def lego_cmd():
         )  # return specified results
 
     elif INPUTmain == "sortsets-number":  # the 'sortsets-number' command
-        INPUTsearch = str(input("Please enter a set number (NOT name): ")
-                          )  # search bar to sort by name
+        INPUTsearch = str(
+            input("Please enter a set number (NOT name): ")
+        )  # search bar to sort by name
         SETSbynum = {
             "setname": "setnames",
             "setnum": "setnumscontainingINPUTsearch",
@@ -263,7 +278,8 @@ def lego_cmd():
 
     elif INPUTmain == "sortsets-theme":  # the 'sortsets-theme' command
         INPUTsearch = str(
-            input("Please enter a set theme: "))  # search bar to sort by name
+            input("Please enter a set theme: ")
+        )  # search bar to sort by name
         SETSbytheme = {
             "setname": "setnames",
             "setnum": "setnums",
@@ -284,9 +300,7 @@ def lego_cmd():
         )
         print("newpiece - creates a new piece in the database.")
         print("newcolour/newcolor - creates a new colour in the database.")
-        print(
-            "addpiece - adds a quantity of your selected piece to the database."
-        )
+        print("addpiece - adds a quantity of your selected piece to the database.")
         print(
             "removepiece - removes a quantity of your selected piece from the database."
         )
@@ -302,9 +316,7 @@ def lego_cmd():
         print("newset - creates a new set in the database.")
         print("newtheme - creates a new theme in the database. ")
         print("addset - adds a quantity of your selected set to the database.")
-        print(
-            "removeset - removes a quantity of your selected set from the database."
-        )
+        print("removeset - removes a quantity of your selected set from the database.")
         print(
             "sortsets-all - prints all sets and their respective set numbers, themes, piece count and quantity to the screen."
         )
@@ -329,8 +341,9 @@ def lego_cmd():
         os.startfile("")  # opens license
 
     else:
-        print('Sorry, try again! \nType "help" for a list of commands.'
-              )  # helpful error message
+        print(
+            'Sorry, try again! \nType "help" for a list of commands.'
+        )  # helpful error message
 
 
 if __name__ == "__main__":
