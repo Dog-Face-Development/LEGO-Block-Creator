@@ -165,8 +165,7 @@ def lego_cmd():
         global INPUTnewsettheme  # create global var
         global INPUTnewsetpiececount  # create global var
         global INPUTnewsetcount  # create global var
-        INPUTnewset = str(
-            input("Name the set you would like to add: "))  # ask set name
+        INPUTnewset = str(input("Name the set you would like to add: "))  # ask set name
         INPUTnewsetnum = str(
             input("What is the set number for the set you would like to add? ")
         )  # ask set number
