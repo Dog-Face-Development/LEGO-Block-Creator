@@ -1,6 +1,6 @@
 """
 LEGO Block Creator
-Copyright (C) 2016-2022 @willtheorangeguy
+Copyright (C) 2016-2023 @willtheorangeguy
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -337,7 +337,7 @@ def lego_cmd():
 
     elif INPUTmain == "copyright" or "license":  # the 'copyright command'
         print(
-            "Copyright (C) 2018-2022 Dog Face Development Co. \nUse is subject to the terms and conditions outlined in the LICENSE.md document."
+            "Copyright (C) 2018-2023 Dog Face Development Co. \nUse is subject to the terms and conditions outlined in the LICENSE.md document."
         )  # copyright info
         os.startfile("")  # opens license
 
