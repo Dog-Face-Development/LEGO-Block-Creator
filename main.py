@@ -14,14 +14,11 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-#pylint: disable=invalid-name, global-variable-undefined
-
-# Import Statements
-import os
+#pylint: disable=invalid-name, global-variable-undefined, too-many-branches, too-many-statements
 
 
 def lego_cmd():
-    """The main function of the program."""
+    """Offline inventory tracking of LEGO parts and sets through an easy to use CLI."""
     # Prompt
     INPUTmain = input("LEGO CMD: ")
 
@@ -361,12 +358,11 @@ def lego_cmd():
         )
         print("help - prints this help text")
 
-    elif INPUTmain == "copyright" or "license":  # the 'copyright command'
+    elif INPUTmain == "copyright" or INPUTmain == "license":  # the 'copyright command'
         print(
             "Copyright (C) 2018-2023 Dog Face Development Co. \
                 \nUse is subject to the terms and conditions outlined in the LICENSE.md document."
         )  # copyright info
-        os.startfile("")  # opens license
 
     else:
         print(
