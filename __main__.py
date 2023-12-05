@@ -1,5 +1,5 @@
 """Main entry point for the application."""
-#pylint: disable=invalid-name
+# pylint: disable=invalid-name
 
 from main import lego_cmd
 

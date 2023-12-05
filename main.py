@@ -14,7 +14,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-#pylint: disable=invalid-name, global-variable-undefined
+# pylint: disable=invalid-name, global-variable-undefined
 
 # Import Statements
 import os
@@ -329,8 +329,10 @@ def lego_cmd():
         print("newset - creates a new set in the database.")
         print("newtheme - creates a new theme in the database. ")
         print("addset - adds a quantity of your selected set to the database.")
-        print("removeset - \
-              removes a quantity of your selected set from the database.")
+        print(
+            "removeset - \
+              removes a quantity of your selected set from the database."
+        )
         print(
             "sortsets-all - \
                 prints all sets and their respective set numbers, \

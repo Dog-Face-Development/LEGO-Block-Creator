@@ -1,5 +1,5 @@
 """Initialize PyPI Package"""
-#pylint: disable=invalid-name
+# pylint: disable=invalid-name
 
 from main import lego_cmd
 
