@@ -1,3 +1,6 @@
+"""Main entry point for the application."""
+#pylint: disable=invalid-name
+
 from main import lego_cmd
 
 if __name__ == "__main__":

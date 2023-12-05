@@ -14,11 +14,14 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
+#pylint: disable=invalid-name, global-variable-undefined
+
 # Import Statements
 import os
 
 
 def lego_cmd():
+    """The main function of the program."""
     # Prompt
     INPUTmain = input("LEGO CMD: ")
 
@@ -33,7 +36,9 @@ def lego_cmd():
         )  # ask for name
         INPUTnewpiececolour = str(
             input(
-                'What is the piece colour (make sure this colour is in the colour database, otherwise add using "newcolour")? '
+                'What is the piece colour \
+                    (make sure this colour is in the colour database, \
+                        otherwise add using "newcolour")? '
             )
         )  # ask for colour
         INPUTnewpiececount = int(
@@ -171,7 +176,9 @@ def lego_cmd():
         )  # ask set number
         INPUTnewsettheme = str(
             input(
-                'What is the theme for the set you would like to add? (make sure this theme is in the database, otherwise add using "newtheme") '
+                'What is the theme for the set you would like to add? \
+                    (make sure this theme is in the database, \
+                        otherwise add using "newtheme") '
             )
         )  # ask set theme
         INPUTnewsetpiececount = str(
@@ -302,41 +309,62 @@ def lego_cmd():
         print("newcolour/newcolor - creates a new colour in the database.")
         print("addpiece - adds a quantity of your selected piece to the database.")
         print(
-            "removepiece - removes a quantity of your selected piece from the database."
+            "removepiece - \
+                removes a quantity of your selected piece from the database."
         )
         print(
-            "sortparts-all - prints all pieces and their respective colours and quantities to the screen."
+            "sortparts-all - \
+                prints all pieces and their respective colours and quantities to the screen."
         )
         print(
-            "sortparts-name - prints all pieces related to the search query entered, as well as their respective colours and quantities to the screen."
+            "sortparts-name - \
+                prints all pieces related to the search query entered, \
+                    as well as their respective colours and quantities to the screen."
         )
         print(
-            "sortparts-colour/sortparts-color - prints all pieces in that colour, as well as their respective names and quantities."
+            "sortparts-colour/sortparts-color - \
+                prints all pieces in that colour, \
+                    as well as their respective names and quantities."
         )
         print("newset - creates a new set in the database.")
         print("newtheme - creates a new theme in the database. ")
         print("addset - adds a quantity of your selected set to the database.")
-        print("removeset - removes a quantity of your selected set from the database.")
+        print("removeset - \
+              removes a quantity of your selected set from the database.")
         print(
-            "sortsets-all - prints all sets and their respective set numbers, themes, piece count and quantity to the screen."
+            "sortsets-all - \
+                prints all sets and their respective set numbers, \
+                    themes, piece count and quantity to the screen."
         )
         print(
-            "sortsets-name - prints all the sets related to the set name entered, as well as their respective set numbers, themes, piece count and quantity to the screen."
+            "sortsets-name - \
+                prints all the sets related to the set name entered, \
+                    as well as their respective set numbers, \
+                        themes, piece count and quantity to the screen."
         )
         print(
-            "sortsets-number - prints all the sets related to the set number entered, as well as their respective set names, themes, piece count and quantity to the screen."
+            "sortsets-number - \
+                prints all the sets related to the set number entered, \
+                    as well as their respective set names, \
+                        themes, piece count and quantity to the screen."
         )
         print(
-            "sortsets-theme - prints all the sets related to the set theme entered, as well as their respective set names, numbers, piece count and quantity to the screen."
+            "sortsets-theme - \
+                prints all the sets related to the set theme entered, \
+                    as well as their respective set names, \
+                        numbers, piece count and quantity to the screen."
         )
         print(
-            'copyright/license"- prints license and copyright information and opens the license in default text editor.'
+            'copyright/license"- \
+                prints license and copyright information \
+                    and opens the license in default text editor.'
         )
         print("help - prints this help text")
 
     elif INPUTmain == "copyright" or "license":  # the 'copyright command'
         print(
-            "Copyright (C) 2018-2023 Dog Face Development Co. \nUse is subject to the terms and conditions outlined in the LICENSE.md document."
+            "Copyright (C) 2018-2023 Dog Face Development Co. \
+                \nUse is subject to the terms and conditions outlined in the LICENSE.md document."
         )  # copyright info
         os.startfile("")  # opens license
 

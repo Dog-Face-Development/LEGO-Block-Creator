@@ -1,8 +1,11 @@
+"""Setup file for LEGO Block Creator."""
+
 from setuptools import setup
 
 
 def readme():
-    with open("README.md") as f:
+    """Read the README.md file."""
+    with open("README.md", encoding="UTF-8") as f:
         return f.read()
 
 
