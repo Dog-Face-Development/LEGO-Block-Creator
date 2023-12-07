@@ -1,9 +1,9 @@
 """Tests for main.py."""
 # pylint: disable=import-error, wrong-import-position, unused-argument, line-too-long
-
 import os
 import sys
-from unittest.mock import call, patch
+from unittest.mock import call
+from unittest.mock import patch
 
 import main
 
