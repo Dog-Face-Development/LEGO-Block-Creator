@@ -19,16 +19,14 @@ def test_lego_cmd_newpiece(self, mock_print):
 
     """
     main.lego_cmd()
-    mock_print.assert_has_calls(
-        [
-            call("LEGO CMD: "),
-            call("Name the piece you would like to add: "),
-            call(
-                'What is the piece colour                     (make sure this colour is in the colour database,                         otherwise add using "newcolour")? '
-            ),
-            call("How many of that would you like to add? "),
-        ]
-    )
+    mock_print.assert_has_calls([
+        call("LEGO CMD: "),
+        call("Name the piece you would like to add: "),
+        call(
+            'What is the piece colour                     (make sure this colour is in the colour database,                         otherwise add using "newcolour")? '
+        ),
+        call("How many of that would you like to add? "),
+    ])
 
 
 @patch("builtins.input", side_effect=["newcolour", "Red"])
@@ -40,12 +38,10 @@ def test_lego_cmd_newcolour(self, mock_print):
 
     """
     main.lego_cmd()
-    mock_print.assert_has_calls(
-        [
-            call("LEGO CMD: "),
-            call("Name the colour you would like to add: "),
-        ]
-    )
+    mock_print.assert_has_calls([
+        call("LEGO CMD: "),
+        call("Name the colour you would like to add: "),
+    ])
 
 
 @patch("builtins.input", side_effect=["newcolor", "Red"])
@@ -57,12 +53,10 @@ def test_lego_cmd_newcolor(self, mock_print):
 
     """
     main.lego_cmd()
-    mock_print.assert_has_calls(
-        [
-            call("LEGO CMD: "),
-            call("Name the color you would like to add: "),
-        ]
-    )
+    mock_print.assert_has_calls([
+        call("LEGO CMD: "),
+        call("Name the color you would like to add: "),
+    ])
 
 
 @patch("builtins.input", side_effect=["addpiece", "Brick", "Red", "5"])
@@ -74,14 +68,12 @@ def test_lego_cmd_addpiece(self, mock_print):
 
     """
     main.lego_cmd()
-    mock_print.assert_has_calls(
-        [
-            call("LEGO CMD: "),
-            call("What is the name of the piece that you would like to add to? "),
-            call("What is the piece colour? "),
-            call("How many of that piece do you want to add? "),
-        ]
-    )
+    mock_print.assert_has_calls([
+        call("LEGO CMD: "),
+        call("What is the name of the piece that you would like to add to? "),
+        call("What is the piece colour? "),
+        call("How many of that piece do you want to add? "),
+    ])
 
 
 @patch("builtins.input", side_effect=["removepiece", "Brick", "Red", "5"])
@@ -93,14 +85,12 @@ def test_lego_cmd_removepiece(self, mock_print):
 
     """
     main.lego_cmd()
-    mock_print.assert_has_calls(
-        [
-            call("LEGO CMD: "),
-            call("What is the name of the piece that you would like to remove? "),
-            call("What is the piece colour? "),
-            call("How many of that piece do you want to remove? "),
-        ]
-    )
+    mock_print.assert_has_calls([
+        call("LEGO CMD: "),
+        call("What is the name of the piece that you would like to remove? "),
+        call("What is the piece colour? "),
+        call("How many of that piece do you want to remove? "),
+    ])
 
 
 @patch(
@@ -115,20 +105,16 @@ def test_lego_cmd_newset(self, mock_print):
 
     """
     main.lego_cmd()
-    mock_print.assert_has_calls(
-        [
-            call("LEGO CMD: "),
-            call("Name the set you would like to add: "),
-            call("What is the set number for the set you would like to add? "),
-            call(
-                'What is the theme for the set you would like to add? \
+    mock_print.assert_has_calls([
+        call("LEGO CMD: "),
+        call("Name the set you would like to add: "),
+        call("What is the set number for the set you would like to add? "),
+        call('What is the theme for the set you would like to add? \
                     (make sure this theme is in the database, \
-                        otherwise add using "newtheme") '
-            ),
-            call("How many pieces are there in this set? "),
-            call("How many of this set would you like to add? "),
-        ]
-    )
+                        otherwise add using "newtheme") '),
+        call("How many pieces are there in this set? "),
+        call("How many of this set would you like to add? "),
+    ])
 
 
 @patch("builtins.input", side_effect=["newtheme", "City"])
@@ -140,12 +126,10 @@ def test_lego_cmd_newtheme(self, mock_print):
 
     """
     main.lego_cmd()
-    mock_print.assert_has_calls(
-        [
-            call("LEGO CMD: "),
-            call("Name the theme you would like to add: "),
-        ]
-    )
+    mock_print.assert_has_calls([
+        call("LEGO CMD: "),
+        call("Name the theme you would like to add: "),
+    ])
 
 
 @patch("builtins.input", side_effect=["addset", "123456", "5"])
@@ -157,13 +141,11 @@ def test_lego_cmd_addset(self, mock_print):
 
     """
     main.lego_cmd()
-    mock_print.assert_has_calls(
-        [
-            call("LEGO CMD: "),
-            call("What is the set number of the set that you would like to add? "),
-            call("How many of that set do you want to add? "),
-        ]
-    )
+    mock_print.assert_has_calls([
+        call("LEGO CMD: "),
+        call("What is the set number of the set that you would like to add? "),
+        call("How many of that set do you want to add? "),
+    ])
 
 
 @patch("builtins.input", side_effect=["removeset", "123456", "5"])
@@ -175,10 +157,10 @@ def test_lego_cmd_removeset(self, mock_print):
 
     """
     main.lego_cmd()
-    mock_print.assert_has_calls(
-        [
-            call("LEGO CMD: "),
-            call("What is the set number of the set that you would like to remove? "),
-            call("How many of that set do you want to remove? "),
-        ]
-    )
+    mock_print.assert_has_calls([
+        call("LEGO CMD: "),
+        call(
+            "What is the set number of the set that you would like to remove? "
+        ),
+        call("How many of that set do you want to remove? "),
+    ])
