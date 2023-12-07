@@ -13,7 +13,11 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 @patch("builtins.input", side_effect=["newpiece", "Brick", "Red", "5"])
 @patch("builtins.print")
 def test_lego_cmd_newpiece(self, mock_print):
-    """Test the newpiece command."""
+    """Test the newpiece command.
+
+    :param mock_print: 
+
+    """
     main.lego_cmd()
     mock_print.assert_has_calls(
         [
@@ -30,7 +34,11 @@ def test_lego_cmd_newpiece(self, mock_print):
 @patch("builtins.input", side_effect=["newcolour", "Red"])
 @patch("builtins.print")
 def test_lego_cmd_newcolour(self, mock_print):
-    """Test the newcolour command."""
+    """Test the newcolour command.
+
+    :param mock_print: 
+
+    """
     main.lego_cmd()
     mock_print.assert_has_calls(
         [
@@ -43,7 +51,11 @@ def test_lego_cmd_newcolour(self, mock_print):
 @patch("builtins.input", side_effect=["newcolor", "Red"])
 @patch("builtins.print")
 def test_lego_cmd_newcolor(self, mock_print):
-    """Test the newcolor command."""
+    """Test the newcolor command.
+
+    :param mock_print: 
+
+    """
     main.lego_cmd()
     mock_print.assert_has_calls(
         [
@@ -56,7 +68,11 @@ def test_lego_cmd_newcolor(self, mock_print):
 @patch("builtins.input", side_effect=["addpiece", "Brick", "Red", "5"])
 @patch("builtins.print")
 def test_lego_cmd_addpiece(self, mock_print):
-    """Test the addpiece command."""
+    """Test the addpiece command.
+
+    :param mock_print: 
+
+    """
     main.lego_cmd()
     mock_print.assert_has_calls(
         [
@@ -71,7 +87,11 @@ def test_lego_cmd_addpiece(self, mock_print):
 @patch("builtins.input", side_effect=["removepiece", "Brick", "Red", "5"])
 @patch("builtins.print")
 def test_lego_cmd_removepiece(self, mock_print):
-    """Test the removepiece command."""
+    """Test the removepiece command.
+
+    :param mock_print: 
+
+    """
     main.lego_cmd()
     mock_print.assert_has_calls(
         [
@@ -89,7 +109,11 @@ def test_lego_cmd_removepiece(self, mock_print):
 )
 @patch("builtins.print")
 def test_lego_cmd_newset(self, mock_print):
-    """Test the newset command."""
+    """Test the newset command.
+
+    :param mock_print: 
+
+    """
     main.lego_cmd()
     mock_print.assert_has_calls(
         [
@@ -110,7 +134,11 @@ def test_lego_cmd_newset(self, mock_print):
 @patch("builtins.input", side_effect=["newtheme", "City"])
 @patch("builtins.print")
 def test_lego_cmd_newtheme(self, mock_print):
-    """Test the newtheme command."""
+    """Test the newtheme command.
+
+    :param mock_print: 
+
+    """
     main.lego_cmd()
     mock_print.assert_has_calls(
         [
@@ -123,7 +151,11 @@ def test_lego_cmd_newtheme(self, mock_print):
 @patch("builtins.input", side_effect=["addset", "123456", "5"])
 @patch("builtins.print")
 def test_lego_cmd_addset(self, mock_print):
-    """Test the addset command."""
+    """Test the addset command.
+
+    :param mock_print: 
+
+    """
     main.lego_cmd()
     mock_print.assert_has_calls(
         [
@@ -137,7 +169,11 @@ def test_lego_cmd_addset(self, mock_print):
 @patch("builtins.input", side_effect=["removeset", "123456", "5"])
 @patch("builtins.print")
 def test_lego_cmd_removeset(self, mock_print):
-    """Test the removeset command."""
+    """Test the removeset command.
+
+    :param mock_print: 
+
+    """
     main.lego_cmd()
     mock_print.assert_has_calls(
         [
