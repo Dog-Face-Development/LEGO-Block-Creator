@@ -11,7 +11,7 @@ def readme():
 
 setup(
     name="lego-block-creator",
-    version="0.3.0",
+    version="0.4.0",
     description="Offline inventory tracking of LEGO parts and sets through an easy to use CLI.",
     long_description=readme(),
     classifiers=[

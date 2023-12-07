@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.4.0](https://github.com/willtheorangeguy/LEGO-Block-Creator/releases/tag/v0.4.0)
+
+### Added
+
+- PyTest tests.
+
 ## [v0.3.0](https://github.com/willtheorangeguy/LEGO-Block-Creator/releases/tag/v0.3.0)
 
 ### Added
