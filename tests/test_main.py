@@ -15,7 +15,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 def test_lego_cmd_newpiece(self, mock_print):
     """Test the newpiece command.
 
-    :param mock_print: 
+    :param mock_print:
 
     """
     main.lego_cmd()
@@ -36,7 +36,7 @@ def test_lego_cmd_newpiece(self, mock_print):
 def test_lego_cmd_newcolour(self, mock_print):
     """Test the newcolour command.
 
-    :param mock_print: 
+    :param mock_print:
 
     """
     main.lego_cmd()
@@ -53,7 +53,7 @@ def test_lego_cmd_newcolour(self, mock_print):
 def test_lego_cmd_newcolor(self, mock_print):
     """Test the newcolor command.
 
-    :param mock_print: 
+    :param mock_print:
 
     """
     main.lego_cmd()
@@ -70,7 +70,7 @@ def test_lego_cmd_newcolor(self, mock_print):
 def test_lego_cmd_addpiece(self, mock_print):
     """Test the addpiece command.
 
-    :param mock_print: 
+    :param mock_print:
 
     """
     main.lego_cmd()
@@ -89,7 +89,7 @@ def test_lego_cmd_addpiece(self, mock_print):
 def test_lego_cmd_removepiece(self, mock_print):
     """Test the removepiece command.
 
-    :param mock_print: 
+    :param mock_print:
 
     """
     main.lego_cmd()
@@ -111,7 +111,7 @@ def test_lego_cmd_removepiece(self, mock_print):
 def test_lego_cmd_newset(self, mock_print):
     """Test the newset command.
 
-    :param mock_print: 
+    :param mock_print:
 
     """
     main.lego_cmd()
@@ -136,7 +136,7 @@ def test_lego_cmd_newset(self, mock_print):
 def test_lego_cmd_newtheme(self, mock_print):
     """Test the newtheme command.
 
-    :param mock_print: 
+    :param mock_print:
 
     """
     main.lego_cmd()
@@ -153,7 +153,7 @@ def test_lego_cmd_newtheme(self, mock_print):
 def test_lego_cmd_addset(self, mock_print):
     """Test the addset command.
 
-    :param mock_print: 
+    :param mock_print:
 
     """
     main.lego_cmd()
@@ -171,7 +171,7 @@ def test_lego_cmd_addset(self, mock_print):
 def test_lego_cmd_removeset(self, mock_print):
     """Test the removeset command.
 
-    :param mock_print: 
+    :param mock_print:
 
     """
     main.lego_cmd()
