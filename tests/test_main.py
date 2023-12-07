@@ -1,13 +1,12 @@
 """Tests for main.py."""
 # pylint: disable=import-error, wrong-import-position, unused-argument, line-too-long
 
+import main
 import sys
 import os
 from unittest.mock import patch, call
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-import main
 
 
 @patch("builtins.input", side_effect=["newpiece", "Brick", "Red", "5"])
