@@ -1,6 +1,5 @@
 """Tests for main.py."""
 
-
 # pylint: disable=import-error, wrong-import-position, unused-argument, line-too-long
 
 import sys
