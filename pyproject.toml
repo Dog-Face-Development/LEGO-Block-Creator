@@ -23,3 +23,25 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/Dog-Face-Development/LEGO-Block-Creator"
 "Bug Tracker" = "https://github.com/Dog-Face-Development/LEGO-Block-Creator/Issues"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --strict-markers --cov=main --cov-report=term-missing --cov-report=html --cov-report=xml"
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.coverage.run]
+source = ["."]
+omit = ["tests/*", "setup.py", "__main__.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == \"__main__\":",
+    "if TYPE_CHECKING:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
