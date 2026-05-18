@@ -8,11 +8,11 @@ The project uses multiple GitHub Actions workflows to ensure code quality, secur
 
 | Workflow | Trigger | Purpose | Badge |
 |----------|---------|---------|-------|
-| PyTest | Push, PR | Run tests on multiple OS/Python versions | ![Pytest State](https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/pytest.yml/badge.svg) |
-| Pylint | Push | Code quality and style checking | ![Pylint State](https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/pylint.yml/badge.svg) |
-| CodeQL | Push, PR, Schedule | Security vulnerability scanning | ![CodeQL State](https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/codeql-analysis.yml/badge.svg) |
-| Docker Publish | Release | Build and publish Docker images | ![Docker Build State](https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/docker-publish.yml/badge.svg) |
-| PyPI Publish | Release | Publish package to PyPI | ![PyPI Build State](https://github.com/Dog-Face-Development/LEGO-Block-Creator/actions/workflows/push-to-pypi.yml/badge.svg) |
+| PyTest | Push, PR | Run tests on multiple OS/Python versions | ![Pytest State](https://github.com/willtheorangeguy/LEGO-Block-Creator/actions/workflows/pytest.yml/badge.svg) |
+| Pylint | Push | Code quality and style checking | ![Pylint State](https://github.com/willtheorangeguy/LEGO-Block-Creator/actions/workflows/pylint.yml/badge.svg) |
+| CodeQL | Push, PR, Schedule | Security vulnerability scanning | ![CodeQL State](https://github.com/willtheorangeguy/LEGO-Block-Creator/actions/workflows/codeql-analysis.yml/badge.svg) |
+| Docker Publish | Release | Build and publish Docker images | ![Docker Build State](https://github.com/willtheorangeguy/LEGO-Block-Creator/actions/workflows/docker-publish.yml/badge.svg) |
+| PyPI Publish | Release | Publish package to PyPI | ![PyPI Build State](https://github.com/willtheorangeguy/LEGO-Block-Creator/actions/workflows/push-to-pypi.yml/badge.svg) |
 | CLA | PR Comment | Contributor License Agreement verification | N/A |
 
 ## Workflow Details
@@ -108,7 +108,7 @@ python-version: ["3.9"]
 2. Set up Docker Buildx
 3. Login to GitHub Container Registry
 4. Build Docker image
-5. Push to `ghcr.io/dog-face-development/lego-block-creator`
+5. Push to `ghcr.io/willtheorangeguy/lego-block-creator`
 
 ### 5. PyPI Publish Workflow (`.github/workflows/push-to-pypi.yml`)
 
@@ -209,7 +209,7 @@ actionlint
    ```bash
    # Get latest workflow runs
    curl -H "Accept: application/vnd.github.v3+json" \
-     https://api.github.com/repos/Dog-Face-Development/LEGO-Block-Creator/actions/runs
+     https://api.github.com/repos/willtheorangeguy/LEGO-Block-Creator/actions/runs
    ```
 
 ### Debugging Failed Workflows
@@ -265,7 +265,7 @@ actionlint
 
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [GitHub Community Forum](https://github.community/)
-- [Project Issues](https://github.com/Dog-Face-Development/LEGO-Block-Creator/issues)
+- [Project Issues](https://github.com/willtheorangeguy/LEGO-Block-Creator/issues)
 
 ## Future Enhancements
 

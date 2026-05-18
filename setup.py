@@ -16,13 +16,13 @@ setup(
     long_description=readme(),
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: MIT License",
         "Natural Language :: English",
         "Operating System :: OS Independent",
         "Topic :: Utilities",
     ],
     keywords="lego block blocks inventory sets sort cli",
-    url="https://github.com/Dog-Face-Development/LEGO-Block-Creator",
+    url="https://github.com/willtheorangeguy/LEGO-Block-Creator",
     author="willtheorangeguy",
     entry_points={"console_scripts": ["lego-block-creator=main:lego_cmd"]},
 )
